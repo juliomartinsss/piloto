@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina principal</title>
-</head>
-<body>
-    <h1>esta é a página de contato </h1>
-    
-    <a href="{% url 'index' %}">home </a> |
-    <a href="{% url 'sobre' %}">sobre </a> |
-    <a href="{% url 'contato'%}">contato </a> |
-    <a href="{% url 'ajuda' %}">ajuda </a> |
 
-</body>
-</html>
+{% extends "base.html" %}
+﻿
+{% block titulo %} Contato {% endblock  %}
+﻿
+{% block conteudo %}  
+﻿
+  <h1>entre em contato com nosco: contato@gmail.com<h1>
+  
+  {% endblock  %}
+﻿
+﻿

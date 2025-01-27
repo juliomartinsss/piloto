@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina de ajuda</title>
-</head>
-<body>
-    <h1>esta é a página de ajuda </h1>
-    <a href="{% url 'index' %}">home </a> |
-    <a href="{% url 'sobre' %}">sobre </a> |
-    <a href="{% url 'contato'%}">contato </a> |
-    <a href="{% url 'ajuda' %}">ajuda </a> |
 
-</body>
-</html>
+{% extends "base.html" %}
+﻿
+{% block titulo %} Ajuda {% endblock  %}
+﻿
+{% block conteudo %}  
+﻿
+  <h1>em que podemos ajudar <h1>
+  
+  {% endblock  %}
+﻿
+﻿
