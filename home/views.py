@@ -33,3 +33,6 @@ def local(request):
 
 def exibiritem(request,id):
     return render (request,'exibiritem.html',{'id':id})
+
+def perfil(request):
+    return render (request,'perfil.html')
