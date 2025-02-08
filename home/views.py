@@ -67,8 +67,8 @@ def local(request):
 def exibiritem(request,id):
     return render (request,'exibiritem.html',{'id':id})
 
-def perfil(request):
-    return render (request,'perfil.html')
+def perfil(request,usuario): 
+    return render (request,'perfil.html',{'usuario':usuario})
 def dados(request):
     context = {
         'nome': 'João',
